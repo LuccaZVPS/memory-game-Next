@@ -20,10 +20,10 @@ https://user-images.githubusercontent.com/111321889/197907299-87207f64-40e2-4455
   - [google-auth-library](https://www.npmjs.com/package/google-auth-library)
 
   ## 🔍 Endpoints
-  - /message (GET, POST)
-  - /user (GET,PUT,POST,DELETE)
-## ⚠️ Google authentication
-You need to create a Google Services account to run google authentication.
+  - /user (GET, POST)
+  - /session (GET,PUT,POST,DELETE)
+  - /verify (POST)
+  - /change-password (POST,GET,PUT)
 
 
 
