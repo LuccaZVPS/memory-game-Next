@@ -1,7 +1,6 @@
 # Memory Game
 
-Project created with Nextjs
-
+Memory game created with nextjs where you can register your record and participate in the leaderboards
 ## 📽️ Demo 
 https://user-images.githubusercontent.com/111321889/197907299-87207f64-40e2-4455-af1f-a48fb63b2e38.mp4
 
