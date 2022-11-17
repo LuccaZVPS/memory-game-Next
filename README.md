@@ -1,4 +1,6 @@
 # Memory Game
+🟢 Disponível no Link / Available on the Link: https://game.luccazavarize.com.br/
+
 
 Memory game created with nextjs where you can register your record and participate in the leaderboards
 ## 📽️ Demo 
