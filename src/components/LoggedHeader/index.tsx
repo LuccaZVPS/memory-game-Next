@@ -29,6 +29,7 @@ export function LoggedHeader({ userName }: props) {
             }}
           />
           {!!openSettings && (
+            // @ts-ignore
             <styled.hiddenSettings onClick={logout}>
               Logout
               <styled.triangle></styled.triangle>
