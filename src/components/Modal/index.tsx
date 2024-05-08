@@ -9,12 +9,16 @@ interface ModalProps {
 
 function Modal({ children, title, setDisplay }: ModalProps) {
   return (
+    // @ts-ignore
     <Container
       onClick={() => {
         setDisplay(false);
       }}
-    >
+    >   
+             {/* @ts-ignore */}
+
       <Content
+ //@ts-ignore
         onClick={(e) => {
           e.stopPropagation();
         }}

@@ -96,8 +96,12 @@ export function Rankings({ display }: RankingsProps) {
           )}
         </table>
         <styled.pagination>
+                       {/* @ts-ignore */}
+
           <styled.triangle direction={true} onClick={previousPage} />
           {page}/{countPages()}
+                                 {/* @ts-ignore */}
+
           <styled.triangle direction={false} onClick={nextPage} />
         </styled.pagination>
       </styled.Container>

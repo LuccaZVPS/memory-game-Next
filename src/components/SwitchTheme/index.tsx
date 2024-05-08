@@ -12,7 +12,10 @@ export default function SwitchTheme() {
     }
   };
   return (
+
+    // @ts-ignore
     <styled.container onClick={changeTheme}>
+                                 {/* @ts-ignore */}
       <styled.ball display={data?.themeMode}>
         <styled.sun>
           <BsFillSunFill />

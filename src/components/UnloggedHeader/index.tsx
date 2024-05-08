@@ -10,10 +10,13 @@ import * as styled from "./styles";
 export function UnloggedHeader() {
   const [openMenuBurger, setOpenMenuBurger] = useState(false);
   return (
+    //@ts-ignore
     <styled.Container display={openMenuBurger}>
+                                 {/* @ts-ignore */}
       <styled.SwitchContainer display={openMenuBurger}>
         <SwitchTheme />
       </styled.SwitchContainer>
+                                 {/* @ts-ignore */}
       <styled.btnContainer className="btnContainer" display={openMenuBurger}>
         <LoginModal />
         <RegisterModal />

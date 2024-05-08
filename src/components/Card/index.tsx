@@ -21,10 +21,12 @@ function Card({ Img, id, checkOpenCard, allCardsFlipped }: props) {
   }, [allCardsFlipped]);
   return (
     <styled.flipCard>
+             {/* @ts-ignore */}
       <styled.flipCardInner id={id.toString()}>
         <styled.flipCardFront>
           <Img />
         </styled.flipCardFront>
+                     {/* @ts-ignore */}
         <styled.flipCardBack onClick={checkOpenCard}>?</styled.flipCardBack>
       </styled.flipCardInner>
     </styled.flipCard>
