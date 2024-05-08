@@ -165,6 +165,7 @@ export default function GameTemplate() {
     router.push("/");
   };
   return (
+    //@ts-ignore
     <styled.container display={allCardsFlipped}>
       <div className="menu">
         <div className="back" onClick={BackToHome}>
